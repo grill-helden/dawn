@@ -2685,6 +2685,10 @@ details[open] > .header__menu-item .icon-caret {
   box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
 }
 
+.mega-menu__content.global-settings-popup {
+  box-shadow: var(--popup-shadow-horizontal-offset) max(0px,var(--popup-shadow-vertical-offset)) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
+}
+
 .header__submenu.list-menu {
   padding: 2.4rem 0;
 }
