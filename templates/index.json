@@ -13,13 +13,6 @@
       "type": "image-banner",
       "disabled": true,
       "blocks": {
-        "1662972039b59dc555-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Grill Helden",
-            "heading_size": "h0"
-          }
-        },
         "1662972039b59dc555-1": {
           "type": "text",
           "settings": {
@@ -29,7 +22,6 @@
         }
       },
       "block_order": [
-        "1662972039b59dc555-0",
         "1662972039b59dc555-1"
       ],
       "settings": {
