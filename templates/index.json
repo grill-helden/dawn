@@ -201,13 +201,6 @@
     "456d920c-c120-4aab-b124-36b2bb740f6e": {
       "type": "rich-text",
       "blocks": {
-        "template--16700789686496__456d920c-c120-4aab-b124-36b2bb740f6e-166911049858d8ba1f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Woanders günstiger gesehen?",
-            "heading_size": "h1"
-          }
-        },
         "template--16700789686496__456d920c-c120-4aab-b124-36b2bb740f6e-166911049858d8ba1f-1": {
           "type": "text",
           "settings": {
@@ -224,7 +217,6 @@
         }
       },
       "block_order": [
-        "template--16700789686496__456d920c-c120-4aab-b124-36b2bb740f6e-166911049858d8ba1f-0",
         "template--16700789686496__456d920c-c120-4aab-b124-36b2bb740f6e-166911049858d8ba1f-1",
         "template--16700789686496__456d920c-c120-4aab-b124-36b2bb740f6e-166911049858d8ba1f-2"
       ],
