@@ -218,7 +218,8 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
+      {{content_for_layout}} 
+ {% capture the_snippet_content %}{% include 'upo' %}{% endcapture %}{% unless the_snippet_content contains 'Liquid error' %}{{-the_snippet_content-}}{% endunless %}
     </main>
 
     {% section 'footer' %}
@@ -258,5 +259,10 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+  
+    {% include 'globo.options.scripts' %}
+    {% render 'cookie-banner' %}
+
+<meta name="p:domain_verify" content="fc42cbd20b08906ef6452898d5df6b1b"/>
   </body>
 </html>
