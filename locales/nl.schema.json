@@ -235,23 +235,6 @@
         }
       }
     },
-    "cards": {
-      "name": "Kaarten",
-      "settings": {
-        "header__badge": {
-          "content": "Badge"
-        },
-        "style": {
-          "options__1": {
-            "label": "Standaard"
-          },
-          "options__2": {
-            "label": "Kaart"
-          },
-          "label": "Stijl"
-        }
-      }
-    },
     "badges": {
       "name": "Badges",
       "settings": {
@@ -268,7 +251,7 @@
           "options__4": {
             "label": "Rechtsboven"
           },
-          "label": "Positie productkaart"
+          "label": "Positie op kaarten"
         },
         "sale_badge_color_scheme": {
           "label": "Kleurschema uitverkoop-badge"
@@ -282,7 +265,8 @@
       "name": "Knoppen"
     },
     "variant_pills": {
-      "name": "Variantopties"
+      "name": "Variantopties",
+      "paragraph": "Variantopties zijn een manier om je productvarianten weer te geven. [Meer informatie](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Invoer"
@@ -299,6 +283,78 @@
     },
     "drawers": {
       "name": "Lades"
+    },
+    "cart": {
+      "name": "Winkelwagen",
+      "settings": {
+        "cart_type": {
+          "label": "Type winkelwagen",
+          "drawer": {
+            "label": "Optie"
+          },
+          "page": {
+            "label": "Pagina"
+          },
+          "notification": {
+            "label": "Pop-upmelding"
+          }
+        },
+        "show_vendor": {
+          "label": "Verkoper weergeven"
+        },
+        "show_cart_note": {
+          "label": "Notitie voor winkelwagen inschakelen"
+        },
+        "cart_drawer": {
+          "header": "Winkelwagenoptie",
+          "collection": {
+            "label": "Collectie",
+            "info": "Zichtbaar wanneer winkelwagenoptie leeg is."
+          }
+        }
+      }
+    },
+    "cards": {
+      "name": "Productkaarten",
+      "settings": {
+        "style": {
+          "options__1": {
+            "label": "Standaard"
+          },
+          "options__2": {
+            "label": "Kaart"
+          },
+          "label": "Stijl"
+        }
+      }
+    },
+    "collection_cards": {
+      "name": "Collectiekaarten",
+      "settings": {
+        "style": {
+          "options__1": {
+            "label": "Standaard"
+          },
+          "options__2": {
+            "label": "Kaart"
+          },
+          "label": "Stijl"
+        }
+      }
+    },
+    "blog_cards": {
+      "name": "Blogkaarten",
+      "settings": {
+        "style": {
+          "options__1": {
+            "label": "Standaard"
+          },
+          "options__2": {
+            "label": "Kaart"
+          },
+          "label": "Stijl"
+        }
+      }
     }
   },
   "sections": {
@@ -338,6 +394,9 @@
         },
         "options__3": {
           "label": "Groot"
+        },
+        "options__4": {
+          "label": "Extra groot"
         }
       }
     },
@@ -349,6 +408,18 @@
           "settings": {
             "text": {
               "label": "Tekst"
+            },
+            "text_alignment": {
+              "label": "Tekstuitlijning",
+              "options__1": {
+                "label": "Links"
+              },
+              "options__2": {
+                "label": "Midden"
+              },
+              "options__3": {
+                "label": "Rechts"
+              }
             },
             "link": {
               "label": "Link"
@@ -379,6 +450,16 @@
           },
           "options__2": {
             "label": "Kolom"
+          }
+        },
+        "card_styles": {
+          "label": "Kaartstijl",
+          "info": "Product-, collectie- en blogkaartstijlen kunnen worden bijgewerkt in de thema-instellingen.",
+          "options__1": {
+            "label": "Individuele kaartstijlen gebruiken"
+          },
+          "options__2": {
+            "label": "Alles vormgeven als productkaarten"
           }
         }
       },
@@ -659,8 +740,7 @@
           "name": "Menu",
           "settings": {
             "heading": {
-              "label": "Opschrift",
-              "info": "Hoofdtekst verplicht om menu weer te geven"
+              "label": "Opschrift"
             },
             "menu": {
               "label": "Menu",
@@ -748,7 +828,9 @@
           "options__3": {
             "label": "Centraal boven"
           },
-          "info": "De positie wordt automatisch geoptimaliseerd voor mobiel."
+          "options__4": {
+            "label": "Centraal midden"
+          }
         },
         "menu": {
           "label": "Menu"
@@ -771,6 +853,18 @@
           },
           "options__2": {
             "label": "Megamenu"
+          }
+        },
+        "mobile_layout": {
+          "content": "Opmaak voor mobiel"
+        },
+        "mobile_logo_position": {
+          "label": "Positie logo op mobiel",
+          "options__1": {
+            "label": "Midden"
+          },
+          "options__2": {
+            "label": "Links"
           }
         }
       }
@@ -1194,11 +1288,6 @@
     },
     "main-cart-footer": {
       "name": "Subtotaal",
-      "settings": {
-        "show_cart_note": {
-          "label": "Opmerking voor winkelwagen inschakelen"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Subtotaalprijs"
@@ -1209,12 +1298,7 @@
       }
     },
     "main-cart-items": {
-      "name": "Artikelen",
-      "settings": {
-        "show_vendor": {
-          "label": "Verkoper weergeven"
-        }
-      }
+      "name": "Artikelen"
     },
     "main-collection-banner": {
       "name": "Collectiebanner",
@@ -1271,9 +1355,6 @@
         },
         "header__3": {
           "content": "Productkaart"
-        },
-        "collapse_on_larger_devices": {
-          "label": "Inklappen op desktop"
         },
         "show_rating": {
           "label": "Geef productbeoordeling weer",
@@ -1640,6 +1721,50 @@
               "content": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-rating-block)"
             }
           }
+        },
+        "complementary_products": {
+          "name": "Aanvullende producten",
+          "settings": {
+            "paragraph": {
+              "content": "Als je aanvullende producten wilt selecteren, voeg je de Search en Zichtbaarheid-app toe. [Meer informatie](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+            },
+            "heading": {
+              "label": "Koptekst"
+            },
+            "make_collapsible_row": {
+              "label": "Weergeven als inklapbare rij"
+            },
+            "icon": {
+              "info": "Zichtbaar wanneer de inklapbare rij wordt weergegeven."
+            },
+            "product_list_limit": {
+              "label": "Maximaal aantal weer te geven producten"
+            },
+            "products_per_page": {
+              "label": "Aantal producten per pagina"
+            },
+            "pagination_style": {
+              "label": "Pagineringsstijl",
+              "options": {
+                "option_1": "Stippen",
+                "option_2": "Teller",
+                "option_3": "Getallen"
+              }
+            },
+            "product_card": {
+              "heading": "Productkaart"
+            },
+            "image_ratio": {
+              "label": "Breedte-/hoogteverhouding van afbeeldingen",
+              "options": {
+                "option_1": "Staand",
+                "option_2": "Vierkant"
+              }
+            },
+            "enable_quick_add": {
+              "label": "Knop 'Snel toevoegen' inschakelen"
+            }
+          }
         }
       },
       "settings": {
@@ -1662,10 +1787,13 @@
             "label": "Gestapeld"
           },
           "options__2": {
-            "label": "Miniatuurafbeeldingen"
+            "label": "2 kolommen"
           },
           "options__3": {
-            "label": "Carrousel van miniatuur"
+            "label": "Miniatuurafbeeldingen"
+          },
+          "options__4": {
+            "label": "Carrousel van miniaturen"
           }
         },
         "media_size": {
@@ -1684,10 +1812,23 @@
         "mobile_thumbnails": {
           "label": "Mobiele opmaak",
           "options__1": {
-            "label": "Miniaturen weergeven"
+            "label": "2 kolommen"
           },
           "options__2": {
+            "label": "Miniaturen weergeven"
+          },
+          "options__3": {
             "label": "Miniaturen verbergen"
+          }
+        },
+        "media_position": {
+          "label": "Positie van media voor desktop",
+          "info": "De positie wordt automatisch geoptimaliseerd voor mobiel.",
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Rechts"
           }
         }
       }
@@ -1717,7 +1858,8 @@
           "content": "Productkaart"
         },
         "header__2": {
-          "content": "Blogkaart"
+          "content": "Blogkaart",
+          "info": "Blogkaartstijlen zijn ook van toepassing op paginakaarten in zoekresultaten. Werk je thema-instellingen bij om van kaartstijl te veranderen."
         },
         "article_show_date": {
           "label": "Datum weergeven"
@@ -1953,6 +2095,31 @@
       "settings": {
         "full_width": {
           "label": "Volledige breedte voor sectie gebruiken"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Midden"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Positie van content op desktop",
+          "info": "De positie wordt automatisch geoptimaliseerd voor mobiel."
+        },
+        "content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Midden"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Content uitlijnen"
         }
       },
       "blocks": {
@@ -1972,17 +2139,57 @@
             }
           }
         },
-        "button": {
-          "name": "Knop",
+        "buttons": {
+          "name": "Knoppen",
           "settings": {
-            "button_label": {
-              "label": "Knop met tekstlabel"
+            "button_label_1": {
+              "label": "Eerste knoplabel",
+              "info": "Laat het label leeg om de knop te verbergen."
             },
-            "button_link": {
-              "label": "Knop met link"
+            "button_link_1": {
+              "label": "Eerste knoplink"
             },
-            "button_style_secondary": {
+            "button_style_secondary_1": {
               "label": "Gebruik de knopstijl Omlijnen"
+            },
+            "button_label_2": {
+              "label": "Tweede knoplabel",
+              "info": "Laat het label leeg om de knop te verbergen."
+            },
+            "button_link_2": {
+              "label": "Tweede knoplink"
+            },
+            "button_style_secondary_2": {
+              "label": "Gebruik de knopstijl Omlijnen"
+            }
+          }
+        },
+        "caption": {
+          "name": "Bijschrift",
+          "settings": {
+            "text": {
+              "label": "Tekst"
+            },
+            "text_style": {
+              "label": "Tekststijl",
+              "options__1": {
+                "label": "Ondertitel"
+              },
+              "options__2": {
+                "label": "Hoofdletters"
+              }
+            },
+            "caption_size": {
+              "label": "Tekstgrootte",
+              "options__1": {
+                "label": "Klein"
+              },
+              "options__2": {
+                "label": "Gemiddeld"
+              },
+              "options__3": {
+                "label": "Groot"
+              }
             }
           }
         }
@@ -2137,6 +2344,16 @@
         },
         "hide_variants": {
           "label": "Niet geselecteerde media van varianten op bureaublad verbergen"
+        },
+        "media_position": {
+          "label": "Positie van media voor desktopcomputer",
+          "info": "De positie wordt automatisch geoptimaliseerd voor mobiele weergave.",
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Rechts"
+          }
         }
       },
       "presets": {
@@ -2651,6 +2868,27 @@
       "presets": {
         "name": "Inklapbare content"
       }
+    },
+    "main-account": {
+      "name": "Account"
+    },
+    "main-activate-account": {
+      "name": "Accountactivering"
+    },
+    "main-addresses": {
+      "name": "Adressen"
+    },
+    "main-login": {
+      "name": "Inloggen"
+    },
+    "main-order": {
+      "name": "Bestelling"
+    },
+    "main-register": {
+      "name": "Registratie"
+    },
+    "main-reset-password": {
+      "name": "Wachtwoord opnieuw instellen"
     }
   }
 }

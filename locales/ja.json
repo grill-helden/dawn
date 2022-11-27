@@ -51,7 +51,8 @@
     "slider": {
       "of": "の",
       "next_slide": "右にスライド",
-      "previous_slide": "左にスライド"
+      "previous_slide": "左にスライド",
+      "name": "スライダー"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "商品情報にスキップ",
     "total_reviews": "レビュー数の合計",
     "star_reviews_info": "{{ rating_max }}つ星中{{ rating_value }}つ",
-    "collapsible_content_title": "折りたたみ可能なコンテンツ"
+    "collapsible_content_title": "折りたたみ可能なコンテンツ",
+    "complementary_products": "付属商品"
   },
   "blogs": {
     "article": {
@@ -157,7 +159,7 @@
       "apply": "適用",
       "clear": "クリア",
       "clear_all": "すべてを削除する",
-      "from": "差出人",
+      "from": "から",
       "filter_and_sort": "絞り込みと並び替え",
       "filter_by_label": "絞り込み:",
       "filter_button": "絞り込む",
@@ -177,7 +179,7 @@
       "reset": "リセット",
       "sort_button": "並び替え",
       "sort_by_label": "並び替え: ",
-      "to": "受取人",
+      "to": "まで",
       "clear_filter": "絞り込みを削除する",
       "filter_selected_accessibility": "{{ type }} ({{ count }}件のフィルターを選択済み)",
       "show_more": "さらに表示する",
@@ -248,7 +250,8 @@
         "product": "商品",
         "price": "価格",
         "total": "合計",
-        "quantity": "数量"
+        "quantity": "数量",
+        "image": "商品画像"
       },
       "update": "アップデート",
       "login": {
@@ -266,8 +269,7 @@
     },
     "featured_collection": {
       "view_all": "すべてを表示する",
-      "view_all_label": "{{ collection_name }}コレクションの商品をすべて表示する",
-      "slider": "スライダー"
+      "view_all_label": "{{ collection_name }}コレクションの商品をすべて表示する"
     },
     "collection_list": {
       "view_all": "すべてを表示する"
@@ -377,7 +379,7 @@
     },
     "reset_password": {
       "title": "アカウントのパスワードをリセットする",
-      "subtext": "{{ email }}の新しいパスワードを入力してください",
+      "subtext": "新しいパスワードを入力してください",
       "password": "パスワード",
       "password_confirm": "パスワードを確認する",
       "submit": "パスワードをリセットする"

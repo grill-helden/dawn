@@ -51,7 +51,8 @@
     "slider": {
       "of": "af",
       "next_slide": "Skub til højre",
-      "previous_slide": "Skub til venstre"
+      "previous_slide": "Skub til venstre",
+      "name": "Diasshow"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "Gå til produktoplysninger",
     "total_reviews": "anmeldelser i alt",
     "star_reviews_info": "{{ rating_value }} ud af {{ rating_max }} stjerner",
-    "collapsible_content_title": "Indhold, der kan skjules"
+    "collapsible_content_title": "Indhold, der kan skjules",
+    "complementary_products": "Supplerende produkter"
   },
   "blogs": {
     "article": {
@@ -248,7 +250,8 @@
         "product": "Produkt",
         "price": "Pris",
         "total": "I alt",
-        "quantity": "Antal"
+        "quantity": "Antal",
+        "image": "Produktbillede"
       },
       "update": "Opdater",
       "login": {
@@ -266,8 +269,7 @@
     },
     "featured_collection": {
       "view_all": "Se alle",
-      "view_all_label": "Se alle produkter i kollektionen {{ collection_name }}",
-      "slider": "Diasshow"
+      "view_all_label": "Se alle produkter i kollektionen {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Se alle"
@@ -377,7 +379,7 @@
     },
     "reset_password": {
       "title": "Forny adgangskode til konto",
-      "subtext": "Indtast en ny adgangskode for {{ email }}",
+      "subtext": "Indtast en ny adgangskode",
       "password": "Adgangskode",
       "password_confirm": "Bekræft adgangskode",
       "submit": "Nulstil adgangskode"

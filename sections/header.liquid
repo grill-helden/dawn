@@ -11,6 +11,14 @@
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
   <noscript>{{ 'component-mega-menu.css' | asset_url | stylesheet_tag }}</noscript>
 {%- endif -%}
+{%- if settings.cart_type == "drawer" -%}
+  {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
+  {{ 'component-cart.css' | asset_url | stylesheet_tag }}
+  {{ 'component-totals.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
+  {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{%- endif -%}
 
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
@@ -22,6 +30,10 @@
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
+  }
+
+  .header__heading-logo {
+    max-width: {{ section.settings.logo_width }}px;
   }
 
   @media screen and (min-width: 990px) {
@@ -76,6 +88,11 @@
 </style>
 
 {%- style -%}
+  .header {
+    padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+  }
+
   .section-header {
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
   }
@@ -85,11 +102,21 @@
       margin-bottom: {{ section.settings.margin_bottom }}px;
     }
   }
+
+  @media screen and (min-width: 990px) {
+    .header {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
 {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
+{%- if settings.cart_type == "drawer" -%}
+  <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
 
 <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
   <symbol id="icon-search" viewbox="0 0 18 19" fill="none">
@@ -101,7 +128,7 @@
   </symbol>
 </svg>
 <{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
-  <header class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
+  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
@@ -125,7 +152,7 @@
                               {% render 'icon-arrow' %}
                               {% render 'icon-caret' %}
                             </summary>
-                            <div id="link-{{ link.title | escape }}" class="menu-drawer__submenu has-submenu gradient motion-reduce" tabindex="-1">
+                            <div id="link-{{ link.handle | escape }}" class="menu-drawer__submenu has-submenu gradient motion-reduce" tabindex="-1">
                               <div class="menu-drawer__inner-submenu">
                                 <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                   {% render 'icon-arrow' %}
@@ -145,7 +172,7 @@
                                             {% render 'icon-arrow' %}
                                             {% render 'icon-caret' %}
                                           </summary>
-                                          <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu has-submenu gradient motion-reduce">
+                                          <div id="childlink-{{ childlink.handle | escape }}" class="menu-drawer__submenu has-submenu gradient motion-reduce">
                                             <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                               {% render 'icon-arrow' %}
                                               {{ childlink.title | escape }}
@@ -347,26 +374,28 @@
       </details-modal>
     {%- endif -%}
 
-    {%- if request.page_type == 'index' -%}
-      <h1 class="header__heading">
-    {%- endif -%}
-        <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-          {%- if section.settings.logo != blank -%}
-            {%- assign image_size_2x = section.settings.logo_width | times: 2 | at_most: 5760 -%}
-            <img srcset="{{ section.settings.logo | image_url: width: section.settings.logo_width }} 1x, {{ section.settings.logo | image_url: width: image_size_2x }} 2x"
-              src="{{ section.settings.logo | image_url: width: section.settings.logo_width }}"
-              loading="lazy"
-              class="header__heading-logo"
-              width="{{ section.settings.logo.width }}"
-              height="{{ section.settings.logo.height }}"
-              alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
-            >
-          {%- else -%}
-            <span class="h2">{{ shop.name }}</span>
-          {%- endif -%}
-        </a>
-    {%- if request.page_type == 'index' -%}
-      </h1>
+    {%- if section.settings.logo_position != 'middle-center' -%}
+      {%- if request.page_type == 'index' -%}
+        <h1 class="header__heading">
+      {%- endif -%}
+          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+            {%- if section.settings.logo != blank -%}
+              {%- assign logo_alt = section.settings.logo.alt | default: shop.name | escape -%}
+              {%- assign logo_height = section.settings.logo_width | divided_by: section.settings.logo.aspect_ratio -%}
+              {{ section.settings.logo | image_url: width: section.settings.width | image_tag:
+                class: 'header__heading-logo',
+                widths: '50, 100, 150, 200, 250, 300, 400, 500',
+                height: logo_height,
+                width: section.settings.logo_width,
+                alt: logo_alt
+              }}
+            {%- else -%}
+              <span class="h2">{{ shop.name }}</span>
+            {%- endif -%}
+          </a>
+      {%- if request.page_type == 'index' -%}
+        </h1>
+      {%- endif -%}
     {%- endif -%}
 
     {%- if section.settings.menu != blank -%}
@@ -412,7 +441,7 @@
                     </details>
                   </header-menu>
                 {%- else -%}
-                  <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
+                  <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
                     <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                   </a>
                 {%- endif -%}
@@ -457,7 +486,7 @@
                     </details>
                   </header-menu>
                 {%- else -%}
-                  <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
+                  <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
                     <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                   </a>
                 {%- endif -%}
@@ -465,6 +494,30 @@
             {%- endfor -%}
           </ul>
         </nav>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if section.settings.logo_position == 'middle-center' -%}
+      {%- if request.page_type == 'index' -%}
+        <h1 class="header__heading">
+      {%- endif -%}
+          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+            {%- if section.settings.logo != blank -%}
+              {%- assign logo_alt = section.settings.logo.alt | default: shop.name | escape -%}
+              {%- assign logo_height = section.settings.logo_width | divided_by: section.settings.logo.aspect_ratio -%}
+              {{ section.settings.logo | image_url: width: section.settings.width | image_tag:
+                class: 'header__heading-logo',
+                widths: '50, 100, 150, 200, 250, 300, 400, 500',
+                height: logo_height,
+                width: section.settings.logo_width,
+                alt: logo_alt
+              }}
+            {%- else -%}
+              <span class="h2">{{ shop.name }}</span>
+            {%- endif -%}
+          </a>
+      {%- if request.page_type == 'index' -%}
+        </h1>
       {%- endif -%}
     {%- endif -%}
 
@@ -579,7 +632,9 @@
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
-{%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
+{%- if settings.cart_type == "notification" -%}
+  {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
+{%- endif -%}
 
 {% javascript %}
   class StickyHeader extends HTMLElement {
@@ -766,21 +821,24 @@
       "id": "logo_position",
       "options": [
         {
-          "value": "middle-left",
-          "label": "t:sections.header.settings.logo_position.options__1.label"
-        },
-        {
           "value": "top-left",
           "label": "t:sections.header.settings.logo_position.options__2.label"
         },
         {
           "value": "top-center",
           "label": "t:sections.header.settings.logo_position.options__3.label"
+        },
+        {
+          "value": "middle-left",
+          "label": "t:sections.header.settings.logo_position.options__1.label"
+        },
+        {
+          "value": "middle-center",
+          "label": "t:sections.header.settings.logo_position.options__4.label"
         }
       ],
       "default": "middle-left",
-      "label": "t:sections.header.settings.logo_position.label",
-      "info": "t:sections.header.settings.logo_position.info"
+      "label": "t:sections.header.settings.logo_position.label"
     },
     {
       "type": "link_list",
@@ -820,6 +878,26 @@
     },
     {
       "type": "header",
+      "content": "t:sections.header.settings.mobile_layout.content"
+    },
+    {
+      "type": "select",
+      "id": "mobile_logo_position",
+      "options": [
+        {
+          "value": "center",
+          "label": "t:sections.header.settings.mobile_logo_position.options__1.label"
+        },
+        {
+          "value": "left",
+          "label": "t:sections.header.settings.mobile_logo_position.options__2.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.header.settings.mobile_logo_position.label"
+    },
+    {
+      "type": "header",
       "content": "t:sections.all.spacing"
     },
     {
@@ -831,6 +909,30 @@
       "unit": "px",
       "label": "t:sections.header.settings.margin_bottom.label",
       "default": 0
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 36,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 36,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 20
     }
   ]
 }
