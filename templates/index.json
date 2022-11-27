@@ -46,67 +46,6 @@
         "show_text_below": true
       }
     },
-    "166306128331b3a99d": {
-      "type": "collapsible-content",
-      "blocks": {
-        "16630612832c7d339a-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Versandkostenfrei ab 50€ Bestellwert",
-            "icon": "truck",
-            "row_content": "<p>Alle Bestellungen ab einem Warenwert von 50€ werden <strong>kostenfrei<\/strong> innerhalb Deutschlands versendet. Alle Grills werden von uns Freihaus an Sie geliefert.<\/p>",
-            "page": ""
-          }
-        },
-        "16630612832c7d339a-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Erstbesteller Rabatt",
-            "icon": "price_tag",
-            "row_content": "<p>Für die erste Bestellung im Shop, die Sie tätigen, bekommen Kunden, die ein Kundenkonto erstellen<strong> 5 % Rabatt mit dem Code: \"HELD5<\/strong>\" <strong>!<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "16630612832c7d339a-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Voller Garantie Anspruch",
-            "icon": "check_mark",
-            "row_content": "<p>Wir bieten Ihnen <strong>volle Herstellergarantie<\/strong> auf alle Produkte an. Wenden Sie sich einfach über unser Kontaktformular an uns. Die Garantieangaben hängen vom jeweiligen Hersteller ab.<\/p>",
-            "page": ""
-          }
-        },
-        "16630612832c7d339a-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Exklusive Angebote",
-            "icon": "fire",
-            "row_content": "<p>Wir bieten Ihnen <strong>exklusive saisonale Angebote<\/strong> an. Um keine Angebote zu verpassen, melden Sie sich einfach bei unseren Newsletter an oder folgen Sie unseren Social-Media Kanälen.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "16630612832c7d339a-0",
-        "16630612832c7d339a-1",
-        "16630612832c7d339a-2",
-        "16630612832c7d339a-3"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Warum bei Grill-Helden.com bestellen?",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-1",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "900ebd1e-b9c0-4d82-8a42-914227d4cad1": {
       "type": "collection-list",
       "blocks": {
@@ -308,7 +247,6 @@
   "order": [
     "166297224898b72942",
     "1662972039b80beb73",
-    "166306128331b3a99d",
     "900ebd1e-b9c0-4d82-8a42-914227d4cad1",
     "rich_text",
     "featured_collection",
