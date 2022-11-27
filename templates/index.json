@@ -233,6 +233,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -270,6 +272,13 @@
     "456d920c-c120-4aab-b124-36b2bb740f6e": {
       "type": "rich-text",
       "blocks": {
+        "b9c7ddf3-4fdb-44a6-b219-27db61db4d10": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Woanders günstiger gesehen?<\/p>",
+            "heading_size": "h1"
+          }
+        },
         "template--16700789686496__456d920c-c120-4aab-b124-36b2bb740f6e-166911049858d8ba1f-1": {
           "type": "text",
           "settings": {
@@ -281,15 +290,21 @@
           "settings": {
             "button_label": "Anfrage senden",
             "button_link": "shopify:\/\/pages\/woanders-gunstiger-gesehen",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
+        "b9c7ddf3-4fdb-44a6-b219-27db61db4d10",
         "template--16700789686496__456d920c-c120-4aab-b124-36b2bb740f6e-166911049858d8ba1f-1",
         "template--16700789686496__456d920c-c120-4aab-b124-36b2bb740f6e-166911049858d8ba1f-2"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
