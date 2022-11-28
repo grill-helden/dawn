@@ -12,6 +12,9 @@
     gap: 1rem;
     z-index: 2147483647;
   }
+  #dummy-chat-button-iframe {
+    display: none;
+  }
 </style>
 
 <div id="cookies-banner">
@@ -24,6 +27,18 @@
   function getBannerEl() {
     return document.getElementById('cookies-banner');
   }
+  function getChatButtonEl() {
+    return document.getElementById('dummy-chat-button-iframe');
+  }
+
+  function hideChatButton(res) {
+    getChatButtonEl().style.display = 'none';
+  }
+
+  function showChatButton() {
+    getChatButtonEl().style.display = 'block';
+  }
+
 
   function hideBanner(res) {
     getBannerEl().style.display = 'none';
@@ -34,7 +49,7 @@
   }
 
   function handleAccept(e) {
-    window.Shopify.customerPrivacy.setTrackingConsent(true, hideBanner);
+    window.Shopify.customerPrivacy.setTrackingConsent(true, () => {hideBanner(); showChatButton()});
 
     document.addEventListener('trackingConsentAccepted',function() {
       console.log('trackingConsentAccepted event fired');
@@ -42,7 +57,7 @@
   }
 
   function handleDecline() {
-    window.Shopify.customerPrivacy.setTrackingConsent(false, hideBanner);
+    window.Shopify.customerPrivacy.setTrackingConsent(false, () => {hideBanner(); showChatButton()});
   }
 
   function initCookieBanner() {
@@ -51,6 +66,7 @@
 
     if(!userCanBeTracked && userTrackingConsent === 'no_interaction') {
       showBanner();
+      hideChatButton();
     }
   }
 
