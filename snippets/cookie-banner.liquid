@@ -9,13 +9,17 @@
     width: 100%;
     background: #fff;
     border-top: 1px solid #dcdcdc;
+    gap: 1rem;
+    :nth-child(1) {
+      margin-right: auto;
+    }
   }
 </style>
 
 <div id="cookies-banner">
   <span>Diese Webseite verwendet Cookies und Google Analytics.</span>
-  <button style="margin-left: 1em;" class="button button--tertiary" onclick="handleDecline()">Ablehnen</button>
-  <button style="margin-left: 1em;" class="button" onclick="handleAccept()">Akzeptieren</button>
+  <button class="button button--tertiary" onclick="handleDecline()">Ablehnen</button>
+  <button class="button button--tertiary" onclick="handleAccept()">Akzeptieren</button>
 </div>
 
 <script>
