@@ -63,7 +63,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie lange dauert der Versand meiner Bestellung?",
-            "icon": "box",
+            "icon": "none",
             "row_content": "<p>Alle Bestellungen werden innerhalb von 3-7 Werktagen CO2-Neutral mit DHL goGreen vesendet und kleinere Warensendungen werden mit der Deutschen Post versendet. Sobald deine Bestellung versandt wurde, erhältst du eine Benachrichtigung inkl. Sendungsverfolgungsnummer per Mail.<\/p>",
             "page": ""
           }
@@ -72,7 +72,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie kann ich meine Bestellung zurücksenden?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Du kannst deine Bestellung an folgende Adresse zurück senden:<\/p><p><br\/><\/p><p><strong>Schwers & Tenbusch GbR<\/strong><\/p><p><strong>Kotts Stegge 10<\/strong><\/p><p><strong>46397 Bocholt<\/strong><\/p><p><br\/>Sobald deine Rücksendung bei uns eintrifft werden wir dir den Betrag, auf dem gleichem Weg der Bezahlung, zurückerstatten.<\/p><p>Es werden keine Retourlabels erstellt. <\/p>",
             "page": ""
           }
@@ -80,18 +80,63 @@
         "template--16705658781920__61fc2c19-92a5-48a1-a041-2cd29fee11e1-1669641576ef88aa38-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Kann ich die Ware umtauschen?",
+            "icon": "none",
+            "row_content": "<p>Dir gefällt der Artikel nicht?<\/p><p>Kein Problem, sprich uns an und wir finden eine Lösung. <\/p><p>Enstcheidest du dich doch für die Rückgabe, kannst du einfach deine Bestellung wiederrufen.<\/p>",
             "page": ""
           }
         },
         "template--16705658781920__61fc2c19-92a5-48a1-a041-2cd29fee11e1-1669641576ef88aa38-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Kommen ausverkaufte Artikel wieder auf Lager?",
+            "icon": "none",
+            "row_content": "<p>Ist ein Artikel vom Sortiment im Shop momentan ausverkauft wird er demnächst schnellstmöglich wieder im Shop Verfügbar sein.  Ware aus dem lager bestand werden in 1-2 Werktagen nach der Bestellung versendet.<\/p>",
+            "page": ""
+          }
+        },
+        "a82907b0-8e8a-40bc-9efc-7e5832433962": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wann kommt meine Bestellung an?",
+            "icon": "none",
+            "row_content": "<p>Sobald dein Bestellung versendet wurde, erhältst du eine Benachrichtigung inkl. Sendungsverfolgungsnummer per Mail. Alle Pakete werden mit DHL Go Green versendet, kleinere Warensendungen werden mit der Deutschen Post versendet.<\/p><p>Grills und Sperrgut werden per Spedition ausgeliefert.<\/p><p>E-Mail: info@grill-helden.com<\/p>",
+            "page": ""
+          }
+        },
+        "2b7fa2cb-bf8b-49d6-9a73-2cc23ed2f182": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Versandkostenfrei ab 50€ Bestellwert",
+            "icon": "none",
+            "row_content": "<p>Alle Bestellungen ab einem Warenwert von 50€ werden<strong>kostenfrei<\/strong>innerhalb Deutschlands versendet. Alle Grills werden von uns Freihaus an Sie geliefert.<\/p>",
+            "page": ""
+          }
+        },
+        "95d3fac5-94a5-4a43-8eb5-3c65cba728e5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Erstbesteller Rabatt für Neukunden",
+            "icon": "none",
+            "row_content": "<p>Für die erste Bestellung in unserem Grill-Helden Shop, die getätigt wird, bekommen Kunden, die ein Kundenkonto erstellen <strong>5 % Rabatt mit dem Code: \"HELD5<\/strong>\"<strong>!<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "385d3936-44d1-44d3-a76b-6424021654a7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Voller Garantie Anspruch",
+            "icon": "none",
+            "row_content": "<p>Wir bieten Ihnen<strong>volle Herstellergarantie<\/strong>auf alle Produkte an. Wenden Sie sich einfach über unser Kontaktformular an uns. Die Garantieangaben hängen vom jeweiligen Hersteller ab.<\/p>",
+            "page": ""
+          }
+        },
+        "2db6b1db-035c-4fc8-867b-2ddc672a6de4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Exklusive Angebote",
+            "icon": "none",
+            "row_content": "<p>Wir bieten Ihnen<strong>exklusive saisonale Angebote<\/strong>an. Um keine Angebote zu verpassen, melden Sie sich einfach bei unseren Newsletter an oder folgen Sie unseren Social-Media Kanälen.<\/p>",
             "page": ""
           }
         }
@@ -100,7 +145,12 @@
         "template--16705658781920__61fc2c19-92a5-48a1-a041-2cd29fee11e1-1669641576ef88aa38-0",
         "template--16705658781920__61fc2c19-92a5-48a1-a041-2cd29fee11e1-1669641576ef88aa38-1",
         "template--16705658781920__61fc2c19-92a5-48a1-a041-2cd29fee11e1-1669641576ef88aa38-2",
-        "template--16705658781920__61fc2c19-92a5-48a1-a041-2cd29fee11e1-1669641576ef88aa38-3"
+        "template--16705658781920__61fc2c19-92a5-48a1-a041-2cd29fee11e1-1669641576ef88aa38-3",
+        "a82907b0-8e8a-40bc-9efc-7e5832433962",
+        "2b7fa2cb-bf8b-49d6-9a73-2cc23ed2f182",
+        "95d3fac5-94a5-4a43-8eb5-3c65cba728e5",
+        "385d3936-44d1-44d3-a76b-6424021654a7",
+        "2db6b1db-035c-4fc8-867b-2ddc672a6de4"
       ],
       "settings": {
         "caption": "Frequently Asked Questions",
