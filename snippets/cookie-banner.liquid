@@ -10,16 +10,14 @@
     background: #fff;
     border-top: 1px solid #dcdcdc;
     gap: 1rem;
-    :nth-child(1) {
-      margin-right: auto;
-    }
+    z-index: 2147483647;
   }
 </style>
 
 <div id="cookies-banner">
-  <span>Diese Webseite verwendet Cookies und Google Analytics.</span>
-  <button class="button button--tertiary" onclick="handleDecline()">Ablehnen</button>
-  <button class="button button--tertiary" onclick="handleAccept()">Akzeptieren</button>
+  <span style="margin-right: auto">Diese Webseite verwendet Cookies und Google Analytics.</span>
+  <button class="button color-inverse" onclick="handleDecline()">Ablehnen</button>
+  <button class="button " onclick="handleAccept()">Akzeptieren</button>
 </div>
 
 <script>
@@ -32,7 +30,7 @@
   }
 
   function showBanner() {
-   getBannerEl().style.display = 'block';
+   getBannerEl().style.display = 'flex';
   }
 
   function handleAccept(e) {
