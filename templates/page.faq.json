@@ -62,18 +62,18 @@
         "template--16705658781920__61fc2c19-92a5-48a1-a041-2cd29fee11e1-1669641576ef88aa38-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Wie lange dauert der Versand meiner Bestellung?",
+            "icon": "box",
+            "row_content": "<p>Alle Bestellungen werden innerhalb von 3-7 Werktagen CO2-Neutral mit DHL goGreen vesendet und kleinere Warensendungen werden mit der Deutschen Post versendet. Sobald deine Bestellung versandt wurde, erhältst du eine Benachrichtigung inkl. Sendungsverfolgungsnummer per Mail.<\/p>",
             "page": ""
           }
         },
         "template--16705658781920__61fc2c19-92a5-48a1-a041-2cd29fee11e1-1669641576ef88aa38-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Wie kann ich meine Bestellung zurücksenden?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Du kannst deine Bestellung an folgende Adresse zurück senden:<\/p><p><br\/><\/p><p><strong>Schwers & Tenbusch GbR<\/strong><\/p><p><strong>Kotts Stegge 10<\/strong><\/p><p><strong>46397 Bocholt<\/strong><\/p><p><br\/>Sobald deine Rücksendung bei uns eintrifft werden wir dir den Betrag, auf dem gleichem Weg der Bezahlung, zurückerstatten.<\/p><p>Es werden keine Retourlabels erstellt. <\/p>",
             "page": ""
           }
         },
