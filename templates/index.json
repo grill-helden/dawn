@@ -3,7 +3,7 @@
     "166297224898b72942": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"max-height: 40vh; overflow: hidden; display: flex;\"><video playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"autoplay\" preload=\"\" id=\"vid\" width=\"100%\" style=\"\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f9a01fa71ff3439aae858e14199912f1.mp4\" type=\"video\/mp4\">\n  <\/video><\/div>",
+        "custom_liquid": "<div style=\"max-height: 40vh; overflow: hidden; display: flex; align-items: flex-end; justify-content: center;\">\n    <video playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"autoplay\" preload=\"\" id=\"vid\" width=\"100%\" style=\"max-width: 140rem\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f9a01fa71ff3439aae858e14199912f1.mp4\" type=\"video\/mp4\">\n  <\/video><\/div>",
         "color_scheme": "background-2",
         "padding_top": 0,
         "padding_bottom": 0
