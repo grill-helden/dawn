@@ -1,0 +1,19 @@
+{% comment %}
+    Accepts:
+    - product: {Object} Product object
+
+    Usage:
+    {% render 'product-delivery-time' product: product %}
+{% endcomment %}
+
+{%- if product and product.metafields.custom.delivery_time_from.value or product and product.metafields.custom.delivery_time_to.value -%}
+  <div>
+      {%- if product.metafields.custom.delivery_time_from.value and product.metafields.custom.delivery_time_to.value -%}
+          Lieferung gewöhnlich in {{ product.metafields.custom.delivery_time_from.value }} - {{ product.metafields.custom.delivery_time_to.value }} Tagen
+      {%- elseif product.metafields.custom.delivery_time_from.value -%}
+          Lieferung gewöhnlich in {{ product.metafields.custom.delivery_time_from.value }} Tagen
+      {%- elseif product.metafields.custom.delivery_time_to.value -%}
+          Lieferung gewöhnlich in {{ product.metafields.custom.delivery_time_to.value }} Tagen
+      {%- endif -%}
+  </div>
+{%- endif -%}

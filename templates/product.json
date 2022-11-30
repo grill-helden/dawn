@@ -46,9 +46,8 @@
           }
         },
         "29fd49f8-c77b-4861-98da-2d0d6913c45d": {
-          "type": "custom_liquid",
+          "type": "product-delivery-time",
           "settings": {
-            "custom_liquid": "<div>test\"<\/div>"
           }
         },
         "buy_buttons": {
