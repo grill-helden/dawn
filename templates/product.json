@@ -12,7 +12,8 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "caption": {
           "type": "text",
@@ -23,7 +24,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -33,7 +35,21 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
+        },
+        "4c3631c6-f07d-41dc-8e4a-5966d0b2a0aa": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
+        "29fd49f8-c77b-4861-98da-2d0d6913c45d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -43,7 +59,8 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "share": {
           "type": "share",
@@ -59,12 +76,15 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "4c3631c6-f07d-41dc-8e4a-5966d0b2a0aa",
+        "29fd49f8-c77b-4861-98da-2d0d6913c45d",
         "buy_buttons",
         "description",
         "share"
       ],
       "settings": {
         "enable_sticky_info": true,
+        "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "small",
         "mobile_thumbnails": "hide",
