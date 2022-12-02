@@ -38,19 +38,6 @@
           "settings": {
           }
         },
-        "4c3631c6-f07d-41dc-8e4a-5966d0b2a0aa": {
-          "type": "text",
-          "settings": {
-            "text": "Text block{{ product.metafields.custom.delivery_time_from.value }}",
-            "text_style": "body"
-          }
-        },
-        "29fd49f8-c77b-4861-98da-2d0d6913c45d": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{%- if product and product.metafields.custom.delivery_time_from.value or product and product.metafields.custom.delivery_time_to.value -%}\n  <div>\n      {%- if product.metafields.custom.delivery_time_from.value and product.metafields.custom.delivery_time_to.value -%}\n          Lieferung gewöhnlich in {{ product.metafields.custom.delivery_time_from.value }} - {{ product.metafields.custom.delivery_time_to.value }} Tagen\n      {%- elsif product.metafields.custom.delivery_time_from.value -%}\n          Lieferung gewöhnlich in {{ product.metafields.custom.delivery_time_from.value }} Tagen\n      {%- elsif product.metafields.custom.delivery_time_to.value -%}\n          Lieferung gewöhnlich in {{ product.metafields.custom.delivery_time_to.value }} Tagen\n      {%- endif -%}\n  <\/div>\n{%- endif -%}"
-          }
-        },
         "fbc51f2f-c5db-47a5-b567-e86a52e66399": {
           "type": "custom_liquid",
           "settings": {
@@ -82,8 +69,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "4c3631c6-f07d-41dc-8e4a-5966d0b2a0aa",
-        "29fd49f8-c77b-4861-98da-2d0d6913c45d",
         "fbc51f2f-c5db-47a5-b567-e86a52e66399",
         "buy_buttons",
         "description",
