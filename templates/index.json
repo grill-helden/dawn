@@ -70,16 +70,17 @@
         "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/magnstanoak_2.jpg",
+            "heading": "Magnetischer Messerblock",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "Der Eichen Messerblock für alle Ihre Messer",
+            "button_label": "Zum Angebot",
+            "link": "shopify:\/\/products\/magnetischer-messerblock-eiche-klein",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 40,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -93,7 +94,7 @@
         "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "dots",
-        "auto_rotate": true,
+        "auto_rotate": false,
         "change_slides_speed": 5,
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
