@@ -46,6 +46,59 @@
         "show_text_below": true
       }
     },
+    "14855818-0b88-49c7-9afd-64a7a5e97f88": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meater_wp.jpg",
+            "heading": "Meater Plus SALE",
+            "heading_size": "h0",
+            "subheading": "Temperaturen immer im Blick! Mit dem Meater Plus für nur 119,95€",
+            "button_label": "Zu Meater",
+            "link": "shopify:\/\/products\/meater-plus",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-0",
+        "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "166306128331b3a99d": {
       "type": "collapsible-content",
       "blocks": {
@@ -264,6 +317,7 @@
   "order": [
     "166297224898b72942",
     "1662972039b80beb73",
+    "14855818-0b88-49c7-9afd-64a7a5e97f88",
     "166306128331b3a99d",
     "900ebd1e-b9c0-4d82-8a42-914227d4cad1",
     "456d920c-c120-4aab-b124-36b2bb740f6e"
