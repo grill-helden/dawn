@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="{{ settings.colors_accent_1 }}" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="{{ settings.colors_accent_1_dark }}" />
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
@@ -209,6 +210,24 @@
         font-weight: var(--font-body-weight);
       }
 
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --color-base-text: {{ settings.colors_text_dark.red }}, {{ settings.colors_text_dark.green }}, {{ settings.colors_text_dark.blue }};
+          --color-shadow: {{ settings.colors_text_dark.red }}, {{ settings.colors_text_dark.green }}, {{ settings.colors_text_dark.blue }};
+          --color-base-background-1: {{ settings.colors_background_1_dark.red }}, {{ settings.colors_background_1_dark.green }}, {{ settings.colors_background_1_dark.blue }};
+          --color-base-background-2: {{ settings.colors_background_2_dark.red }}, {{ settings.colors_background_2_dark.green }}, {{ settings.colors_background_2_dark.blue }};
+          --color-base-solid-button-labels: {{ settings.colors_solid_button_labels_dark.red }}, {{ settings.colors_solid_button_labels_dark.green }}, {{ settings.colors_solid_button_labels_dark.blue }};
+          --color-base-outline-button-labels: {{ settings.colors_outline_button_labels_dark.red }}, {{ settings.colors_outline_button_labels_dark.green }}, {{ settings.colors_outline_button_labels_dark.blue }};
+          --color-base-accent-1: {{ settings.colors_accent_1_dark.red }}, {{ settings.colors_accent_1_dark.green }}, {{ settings.colors_accent_1_dark.blue }};
+          --color-base-accent-2: {{ settings.colors_accent_2_dark.red }}, {{ settings.colors_accent_2_dark.green }}, {{ settings.colors_accent_2_dark.blue }};
+          --payment-terms-background-color: {{ settings.colors_background_1_dark }};
+
+          --gradient-base-background-1: {% if settings.gradient_background_1_dark != blank %}{{ settings.gradient_background_1_dark }}{% else %}{{ settings.colors_background_1_dark }}{% endif %};
+          --gradient-base-background-2: {% if settings.gradient_background_2_dark != blank %}{{ settings.gradient_background_2_dark }}{% else %}{{ settings.colors_background_2_dark }}{% endif %};
+          --gradient-base-accent-1: {% if settings.gradient_accent_1_dark != blank %}{{ settings.gradient_accent_1_dark }}{% else %}{{ settings.colors_accent_1_dark }}{% endif %};
+          --gradient-base-accent-2: {% if settings.gradient_accent_2_dark != blank %}{{ settings.gradient_accent_2_dark }}{% else %}{{ settings.colors_accent_2_dark }}{% endif %};
+        }
+      }
       @media screen and (min-width: 750px) {
         body {
           font-size: 1.6rem;
