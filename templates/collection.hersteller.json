@@ -114,6 +114,12 @@
           "settings": {
             "collection": "meater"
           }
+        },
+        "29845321-8a34-4efb-9ee0-a35d17e3cf03": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "steak-champ"
+          }
         }
       },
       "block_order": [
@@ -121,7 +127,8 @@
         "16635852017a65b53c-1",
         "dcf6809a-3ab6-4418-8de1-14b0b984190d",
         "16635852017a65b53c-2",
-        "739357c5-ae0b-4dc8-a4b1-0f099783d5b4"
+        "739357c5-ae0b-4dc8-a4b1-0f099783d5b4",
+        "29845321-8a34-4efb-9ee0-a35d17e3cf03"
       ],
       "settings": {
         "title": "Übersicht",
