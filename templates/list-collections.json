@@ -38,6 +38,12 @@
             "collection": "gussplatten-topfe"
           }
         },
+        "beb9131a-1bfb-427b-8b93-9dd75c570364": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "messer-nach-art"
+          }
+        },
         "92048d44-5cfb-4882-85e5-caef651f5107": {
           "type": "featured_collection",
           "settings": {
@@ -60,12 +66,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "servierbretter"
-          }
-        },
-        "beb9131a-1bfb-427b-8b93-9dd75c570364": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "messer-nach-art"
           }
         },
         "c6e06d2e-e8a5-4dd6-9a18-31a6efda43be": {
@@ -98,11 +98,11 @@
         "f48091cc-9d73-4858-a20b-2a98b4233233",
         "1a85c2f4-97a2-48f4-b3d5-c43dfe0de9c8",
         "16548929345acc897a-1",
+        "beb9131a-1bfb-427b-8b93-9dd75c570364",
         "92048d44-5cfb-4882-85e5-caef651f5107",
         "16548929345acc897a-2",
         "10b38a97-f064-4c32-9258-e73d38d6142c",
         "ad73a38e-4991-481c-b4c6-568424f54ce0",
-        "beb9131a-1bfb-427b-8b93-9dd75c570364",
         "c6e06d2e-e8a5-4dd6-9a18-31a6efda43be",
         "3b35eba9-1f0f-4803-8f7a-1e5976298a27",
         "df2279ee-716b-4a52-9f66-9eb5e0ac3988",
