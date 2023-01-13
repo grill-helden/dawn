@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "Grills nach Art",
         "sort": "alphabetical",
@@ -12,7 +13,6 @@
     },
     "16548929349fc765f4": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "16548929345acc897a-0": {
           "type": "featured_collection",
@@ -28,12 +28,14 @@
         },
         "16548929345acc897a-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "smoker"
           }
         },
         "1a85c2f4-97a2-48f4-b3d5-c43dfe0de9c8": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "elektrogrills"
           }
@@ -50,6 +52,24 @@
           "settings": {
             "collection": ""
           }
+        },
+        "f48091cc-9d73-4858-a20b-2a98b4233233": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outdoorkuchen-komplettsets"
+          }
+        },
+        "689a9195-92c4-4b8b-a4cd-06f3d565583c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keramikgrills"
+          }
+        },
+        "9777e6ad-6ded-40c7-a6cd-0f20d3f2d8d7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pizzaofen"
+          }
         }
       },
       "block_order": [
@@ -58,10 +78,13 @@
         "16548929345acc897a-2",
         "1a85c2f4-97a2-48f4-b3d5-c43dfe0de9c8",
         "6a9f5782-fdb5-4f2a-9d5c-5f26fd993990",
-        "df2279ee-716b-4a52-9f66-9eb5e0ac3988"
+        "df2279ee-716b-4a52-9f66-9eb5e0ac3988",
+        "f48091cc-9d73-4858-a20b-2a98b4233233",
+        "689a9195-92c4-4b8b-a4cd-06f3d565583c",
+        "9777e6ad-6ded-40c7-a6cd-0f20d3f2d8d7"
       ],
       "settings": {
-        "title": "Grills nach Art",
+        "title": "Alle Produkte",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 5,
