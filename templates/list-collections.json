@@ -70,6 +70,42 @@
           "settings": {
             "collection": "pizzaofen"
           }
+        },
+        "beb9131a-1bfb-427b-8b93-9dd75c570364": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "messer-nach-art"
+          }
+        },
+        "92048d44-5cfb-4882-85e5-caef651f5107": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "reinigungsbursten"
+          }
+        },
+        "10b38a97-f064-4c32-9258-e73d38d6142c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "thermometer"
+          }
+        },
+        "ad73a38e-4991-481c-b4c6-568424f54ce0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "servierbretter"
+          }
+        },
+        "c6e06d2e-e8a5-4dd6-9a18-31a6efda43be": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "messerblocke"
+          }
+        },
+        "3b35eba9-1f0f-4803-8f7a-1e5976298a27": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magnetische-messerleisten"
+          }
         }
       },
       "block_order": [
@@ -81,7 +117,13 @@
         "df2279ee-716b-4a52-9f66-9eb5e0ac3988",
         "f48091cc-9d73-4858-a20b-2a98b4233233",
         "689a9195-92c4-4b8b-a4cd-06f3d565583c",
-        "9777e6ad-6ded-40c7-a6cd-0f20d3f2d8d7"
+        "9777e6ad-6ded-40c7-a6cd-0f20d3f2d8d7",
+        "beb9131a-1bfb-427b-8b93-9dd75c570364",
+        "92048d44-5cfb-4882-85e5-caef651f5107",
+        "10b38a97-f064-4c32-9258-e73d38d6142c",
+        "ad73a38e-4991-481c-b4c6-568424f54ce0",
+        "c6e06d2e-e8a5-4dd6-9a18-31a6efda43be",
+        "3b35eba9-1f0f-4803-8f7a-1e5976298a27"
       ],
       "settings": {
         "title": "Alle Produkte",
