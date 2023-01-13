@@ -114,12 +114,11 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Grill-Helden.com",
+              "text": "Gratis Versand innerhalb Deutschland ab 50€",
               "text_alignment": "center",
               "color_scheme": "accent-1",
-              "link": "https:\/\/www.instagram.com\/grill.helden\/"
+              "link": ""
             }
           }
         },
