@@ -237,13 +237,6 @@
             "collection": "gewurze"
           }
         },
-        "18c8263d-9ae4-48bc-9b91-d1fcaf128b2a": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "hersteller"
-          }
-        },
         "9e8bd1af-b662-419d-a93e-a7fc81a9c15d": {
           "type": "featured_collection",
           "settings": {
@@ -264,7 +257,6 @@
         "5e7dfbc5-992b-459a-a1af-6855c71931be",
         "68ac8fc6-f40e-4e21-97ad-c38d7f60eb7b",
         "bea34d13-ca3f-40e6-8187-619fe31e17ac",
-        "18c8263d-9ae4-48bc-9b91-d1fcaf128b2a",
         "9e8bd1af-b662-419d-a93e-a7fc81a9c15d"
       ],
       "settings": {
