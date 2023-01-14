@@ -125,9 +125,9 @@
         "16630612832c7d339a-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Voller Garantie Anspruch",
-            "icon": "check_mark",
-            "row_content": "<p>Wir bieten Ihnen <strong>volle Herstellergarantie<\/strong> auf alle Produkte an. Wenden Sie sich einfach über unser Kontaktformular an uns. Die Garantieangaben hängen vom jeweiligen Hersteller ab.<\/p>",
+            "heading": "Versand aus Deutschland",
+            "icon": "box",
+            "row_content": "<p>Wir verschicken <strong>ausschließlich Lagerware<\/strong>. Falls ein Artikel mal nicht auf Lager ist, sorgen wir dafür, dass er schnellstmöglich wieder für Sie verfügbar ist.<\/p>",
             "page": ""
           }
         },
