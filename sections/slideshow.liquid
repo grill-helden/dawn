@@ -93,7 +93,7 @@
           {%- if block.settings.image -%}
             index: {{ forloop.index }}
             {%- assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round -%}
-            {%- if forloop.index == 0 -%}
+            {%- if forloop.index == 1 -%}
               {{ block.settings.image | image_url: width: 3840 | image_tag:
                 loading: 'eager',
                 height: height,
