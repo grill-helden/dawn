@@ -32,11 +32,17 @@
   }
 
   function hideChatButton(res) {
-    getChatButtonEl().style.display = 'none';
+    const btn = getChatButtonEl();
+    if (btn) {
+      btn.style.display = 'none';
+    }
   }
 
   function showChatButton() {
-    getChatButtonEl().style.display = 'block';
+    const btn = getChatButtonEl();
+    if (btn) {
+      btn.style.display = 'block';
+    }
   }
 
 
