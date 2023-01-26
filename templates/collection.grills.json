@@ -48,6 +48,12 @@
           "settings": {
             "collection": "elektrogrills"
           }
+        },
+        "20ed4ef4-3e24-4ebe-8bc7-ecf7f2ab15b6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keramikgrills"
+          }
         }
       },
       "block_order": [
@@ -56,7 +62,8 @@
         "02275c38-08f5-40f9-950d-2ce72fd4c1b9",
         "133e5e17-cae7-40f0-b775-2edc3f14af20",
         "1659378151dc271a39-1",
-        "4bec4cc6-af02-43b0-a3bc-d7319ffb0508"
+        "4bec4cc6-af02-43b0-a3bc-d7319ffb0508",
+        "20ed4ef4-3e24-4ebe-8bc7-ecf7f2ab15b6"
       ],
       "settings": {
         "title": "Grill nach Kategorie finden",
