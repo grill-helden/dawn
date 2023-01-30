@@ -55,15 +55,6 @@
           "settings": {
           }
         },
-        "869e7436-4486-4063-9c1a-6078ef3b203d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Hinweise",
-            "icon": "apple",
-            "content": "<p><strong>DURCHSCHNITTLICHE NÄHRWERTE (PRO 100 G)<\/strong><\/p><ul><li>Brennwert: 562 kJ \/ 132 kcal<\/li><li>Fett: &lt;0,5 g<\/li><li>davon gesättigte Fettsäuren 0g<\/li><li>Kohlenhydrate: 31g<\/li><li>davon Zucker: 27g<\/li><li>Eiweiß: 1,6g<\/li><li>Salz: 1,3 g<\/li><li>Inhalt: 517 gramm<\/li><\/ul>",
-            "page": ""
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -81,7 +72,6 @@
         "fbc51f2f-c5db-47a5-b567-e86a52e66399",
         "buy_buttons",
         "description",
-        "869e7436-4486-4063-9c1a-6078ef3b203d",
         "share"
       ],
       "settings": {
