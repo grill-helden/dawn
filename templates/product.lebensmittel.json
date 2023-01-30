@@ -60,6 +60,15 @@
           "settings": {
             "share_label": "Teilen"
           }
+        },
+        "869e7436-4486-4063-9c1a-6078ef3b203d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Hinweise",
+            "icon": "apple",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -72,7 +81,8 @@
         "fbc51f2f-c5db-47a5-b567-e86a52e66399",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "869e7436-4486-4063-9c1a-6078ef3b203d"
       ],
       "settings": {
         "enable_sticky_info": true,
