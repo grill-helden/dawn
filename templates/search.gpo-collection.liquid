@@ -27,6 +27,9 @@
               }{%- unless forloop.last -%},{%- endunless -%}
             {% endfor %}
           ],
+          "vendor": {{ product.vendor | json }},
+          "type": {{ product.type | json }},
+          "collections": {{ product.collections | map: 'id' | json }},
           "tags": {{ product.tags | json }},
           "isAddon": {%- if product.tags contains 'globo-product-options' -%}true{%- else -%}false{%- endif -%}
         }

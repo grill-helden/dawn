@@ -34,7 +34,6 @@
         "1662972039b59dc555-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/steak-and-flames-on-the-grill.jpg",
         "image_overlay_opacity": 50,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -52,11 +51,12 @@
       "blocks": {
         "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/meater_wp.jpg",
             "heading": "Meater Plus SALE",
             "heading_size": "h0",
-            "subheading": "Temperaturen immer im Blick! Mit dem Meater Plus für nur 109€",
+            "subheading": "Temperaturen immer im Blick! Mit dem Meater Plus für nur 125€",
             "button_label": "Zu Meater",
             "link": "shopify:\/\/products\/meater-plus",
             "button_style_secondary": false,
@@ -125,9 +125,9 @@
         "16630612832c7d339a-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Voller Garantie Anspruch",
-            "icon": "check_mark",
-            "row_content": "<p>Wir bieten Ihnen <strong>volle Herstellergarantie<\/strong> auf alle Produkte an. Wenden Sie sich einfach über unser Kontaktformular an uns. Die Garantieangaben hängen vom jeweiligen Hersteller ab.<\/p>",
+            "heading": "Versand aus Deutschland",
+            "icon": "box",
+            "row_content": "<p>Wir verschicken <strong>ausschließlich Lagerware<\/strong>. Falls ein Artikel mal nicht auf Lager ist, sorgen wir dafür, dass er schnellstmöglich wieder für Sie verfügbar ist.<\/p>",
             "page": ""
           }
         },
@@ -237,13 +237,6 @@
             "collection": "gewurze"
           }
         },
-        "18c8263d-9ae4-48bc-9b91-d1fcaf128b2a": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "hersteller"
-          }
-        },
         "9e8bd1af-b662-419d-a93e-a7fc81a9c15d": {
           "type": "featured_collection",
           "settings": {
@@ -264,7 +257,6 @@
         "5e7dfbc5-992b-459a-a1af-6855c71931be",
         "68ac8fc6-f40e-4e21-97ad-c38d7f60eb7b",
         "bea34d13-ca3f-40e6-8187-619fe31e17ac",
-        "18c8263d-9ae4-48bc-9b91-d1fcaf128b2a",
         "9e8bd1af-b662-419d-a93e-a7fc81a9c15d"
       ],
       "settings": {
@@ -274,7 +266,7 @@
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -321,6 +313,23 @@
         "padding_top": 52,
         "padding_bottom": 68
       }
+    },
+    "3c37192e-83f0-4274-bcb6-420d7df6854d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Aktuelle Grilltrends",
+        "heading_size": "h1",
+        "blog": "trends",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -329,6 +338,7 @@
     "14855818-0b88-49c7-9afd-64a7a5e97f88",
     "166306128331b3a99d",
     "900ebd1e-b9c0-4d82-8a42-914227d4cad1",
-    "456d920c-c120-4aab-b124-36b2bb740f6e"
+    "456d920c-c120-4aab-b124-36b2bb740f6e",
+    "3c37192e-83f0-4274-bcb6-420d7df6854d"
   ]
 }
