@@ -2,7 +2,7 @@
   "current": {
     "colors_solid_button_labels": "{{ shop.brand.colors.primary[0].foreground }}",
     "colors_accent_1": "{{ shop.brand.colors.primary[0].background }}",
-    "gradient_accent_1": "linear-gradient(303deg, rgba(11, 11, 11, 1), rgba(11, 11, 11, 1) 9%, rgba(11, 11, 11, 1) 84%, rgba(237, 114, 14, 1) 91%, rgba(244, 203, 31, 1) 94%)",
+    "gradient_accent_1": "",
     "colors_accent_2": "{{ shop.brand.colors.secondary[0].background }}",
     "gradient_accent_2": "",
     "colors_text": "{{ shop.brand.colors.secondary[1].background }}",
