@@ -170,10 +170,10 @@
                                 </button>
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                   {% comment %}Show Parent Link {% endcomment %}
-                                  <li>
+                                  <li class="announcement-bar">
                                     <a href="{{ link.url }}"
-                                       class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
-                                      <strong>{{ link.title | escape }}</strong>
+                                       class="menu-drawer__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
+                                      <strong class="link--text">{{ link.title | escape }}</strong>
                                     </a>
                                   </li>
                                   {% comment %}Show Parent Link end {% endcomment %}
