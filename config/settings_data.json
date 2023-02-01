@@ -137,10 +137,10 @@
         "settings": {
           "color_scheme": "accent-1",
           "logo": "shopify:\/\/shop_images\/logorund.webp",
-          "logo_width": 150,
+          "logo_width": 140,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "menu_type_desktop": "mega",
+          "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": true,
           "mobile_logo_position": "center",
