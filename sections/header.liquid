@@ -172,8 +172,8 @@
                                   {% comment %}Show Parent Link {% endcomment %}
                                   <li>
                                     <a href="{{ link.url }}"
-                                       class="underlined-link menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
-                                      {{ link.title | escape }}
+                                       class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                                      <strong>{{ link.title | escape }}</strong>
                                     </a>
                                   </li>
                                   {% comment %}Show Parent Link end {% endcomment %}
