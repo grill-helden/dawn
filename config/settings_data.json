@@ -111,7 +111,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/feaicon.png",
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -140,14 +140,14 @@
           "logo_width": 140,
           "logo_position": "middle-left",
           "menu": "main-menu",
+          "back_button_label": "zurück",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": true,
           "mobile_logo_position": "center",
           "margin_bottom": 0,
           "padding_top": 0,
-          "padding_bottom": 0,
-          "back_button_label": "zurück"
+          "padding_bottom": 0
         }
       },
       "footer": {
