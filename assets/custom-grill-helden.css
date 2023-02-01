@@ -5,8 +5,8 @@
     background: unset;
 }
 #Details-menu-drawer-container > summary {
-    --burger-button-width: 42px;
-    --burger-button-bar-thiknes: 4px;
+    --burger-button-width: 36px;
+    --burger-button-bar-thiknes: 3px;
     --burger-button-bar-distance: 10px;
 
 
