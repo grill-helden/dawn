@@ -51,6 +51,7 @@
       "blocks": {
         "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/meater_wp.jpg",
             "heading": "Meater Plus SALE",
@@ -265,7 +266,7 @@
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
