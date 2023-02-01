@@ -1,15 +1,17 @@
 /* burger button animation */
 /* Icon 1 */
 
+#Details-menu-drawer-container > summary:before {
+    background: unset;
+}
 #Details-menu-drawer-container > summary {
-    --burger-button-height: 60px;
     --burger-button-width: 45px;
-    --burger-button-bar-thiknes: 9px;
-    --burger-button-bar-distance: 18px;
+    --burger-button-bar-thiknes: 6px;
+    --burger-button-bar-distance: 12px;
 
 
     width: var(--burger-button-width);
-    height: var(--burger-button-height);
+    height: calc(var(--burger-button-bar-thiknes) + (var(--burger-button-bar-distance) * 2));
     position: relative;
     margin: auto;
     -webkit-transform: rotate(0deg);
