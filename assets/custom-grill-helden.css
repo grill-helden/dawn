@@ -1,6 +1,4 @@
 /* burger button animation */
-/* Icon 1 */
-
 #Details-menu-drawer-container > summary:before {
     background: unset;
 }
