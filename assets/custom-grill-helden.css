@@ -1,7 +1,7 @@
 /* burger button animation */
 /* Icon 1 */
 
-#shopify-section-header #Details-menu-drawer-container > summary {
+#Details-menu-drawer-container > summary {
     width: 60px;
     height: 45px;
     position: relative;
@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 
-#shopify-section-header #Details-menu-drawer-container > summary span {
+#Details-menu-drawer-container > summary span {
     display: block;
     position: absolute;
     height: 9px;
@@ -36,19 +36,19 @@
     transition: .25s ease-in-out;
 }
 
-#shopify-section-header #Details-menu-drawer-container > summary span:nth-child(1) {
+#Details-menu-drawer-container > summary span:nth-child(1) {
     top: 0px;
 }
 
-#shopify-section-header #Details-menu-drawer-container > summary span:nth-child(2) {
+#Details-menu-drawer-container > summary span:nth-child(2) {
     top: 18px;
 }
 
-#shopify-section-header #Details-menu-drawer-container > summary span:nth-child(3) {
+#Details-menu-drawer-container > summary span:nth-child(3) {
     top: 36px;
 }
 
-#shopify-section-header.menu-open #Details-menu-drawer-container > summary span:nth-child(1) {
+#Details-menu-drawer-container > summary[aria-expanded=true] span:nth-child(1) {
     top: 18px;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
@@ -56,12 +56,12 @@
     transform: rotate(135deg);
 }
 
-#shopify-section-header.menu-open #Details-menu-drawer-container > summary span:nth-child(2) {
+#Details-menu-drawer-container > summary[aria-expanded=true] span:nth-child(2) {
     opacity: 0;
     left: -60px;
 }
 
-#shopify-section-header.menu-open #Details-menu-drawer-container > summary span:nth-child(3) {
+#Details-menu-drawer-container > summary[aria-expanded=true] span:nth-child(3) {
     top: 18px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
