@@ -146,7 +146,8 @@
           "mobile_logo_position": "center",
           "margin_bottom": 0,
           "padding_top": 0,
-          "padding_bottom": 0
+          "padding_bottom": 0,
+          "back_button_label": "zurück"
         }
       },
       "footer": {
@@ -358,7 +359,8 @@
             "menu": "main-menu",
             "show_line_separator": true,
             "enable_sticky_header": true,
-            "margin_bottom": 0
+            "margin_bottom": 0,
+            "back_button_label": "zurück"
           }
         },
         "footer": {
