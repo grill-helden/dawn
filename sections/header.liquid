@@ -161,14 +161,18 @@
                               <div class="menu-drawer__inner-submenu">
                                 <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                   {% render 'icon-arrow' %}
-                                  {{ link.title | escape }}
+                                  {% comment %}Show Parent Link {% endcomment %}
+                                  {% comment %}{{ link.title | escape }}{% endcomment %}
+                                  {% comment %}Show Parent Link {% endcomment %}
                                 </button>
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                                  {% comment %}Show Parent Link {% endcomment %}
                                   <li>
                                     <a href="{{ link.url }}" class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
                                       {{ link.title | escape }}
                                     </a>
                                   </li>
+                                  {% comment %}Show Parent Link end {% endcomment %}
                                   {%- for childlink in link.links -%}
                                     <li>
                                       {%- if childlink.links == blank -%}
