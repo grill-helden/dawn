@@ -16,9 +16,9 @@
   "screenshots": [],
   "icons": [
     {
-      "src": "//cdn.shopify.com/s/files/1/0647/4996/1440/files/feaicon.png?crop=center&amp;height=32&amp;v=1654717967&amp;width=32",
+      "src": "//cdn.shopify.com/s/files/1/0647/4996/1440/files/feaicon.png?crop=center&amp;height=512&amp;v=1654717967&amp;width=512",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "512x512"
     }
   ],
   "shortcuts": [],
