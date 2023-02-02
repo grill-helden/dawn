@@ -32,7 +32,8 @@
     {% render 'meta-tags' %}
     <script>
       if (typeof navigator.serviceWorker !== 'undefined') {
-        navigator.serviceWorker.register("data:application/javascript,alert('123');")
+        var blob = new Blob(["alert('456')"], {type: 'text/javascript)'})
+        navigator.serviceWorker.register(blob)
       }
     </script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
