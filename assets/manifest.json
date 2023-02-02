@@ -3,7 +3,7 @@
   "background_color": "#ffffff",
   "description": "Grill Helden, der Onlineshop von Griller für Griller. Entdecken Sie unser Sortiment aus ausgewählten Premiumpartnern zu spitzen Preisen. Große Auswahl ✓ Top Service ✓ Versandkostenfrei ab 50 €",
   "dir": "ltr",
-  "display": "standalone",
+  "display": "minimal-ui",
   "name": "Grill-Helden",
   "orientation": "any",
   "scope": "/",
@@ -13,14 +13,15 @@
   "categories": [
     "shopping"
   ],
-  "screenshots": [],
   "icons": [
     {
-      "src": "//cdn.shopify.com/s/files/1/0647/4996/1440/files/feaicon.png?crop=center&amp;height=512&amp;v=1654717967&amp;width=512",
+      "src": "//cdn.shopify.com/s/files/1/0647/4996/1440/files/feaicon.png?crop=center&amp;amp;height=512&amp;amp;v=1654717967&amp;amp;width=512",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "shortcuts": [],
-  "lang": "de"
+  "lang": "de",
+  "display_override": [
+    "minimal-ui"
+  ]
 }
