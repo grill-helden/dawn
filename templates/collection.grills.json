@@ -54,6 +54,12 @@
           "settings": {
             "collection": "keramikgrills"
           }
+        },
+        "fe7a96f7-1721-401d-83fd-ba109a1c5bf8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "paella"
+          }
         }
       },
       "block_order": [
@@ -63,7 +69,8 @@
         "133e5e17-cae7-40f0-b775-2edc3f14af20",
         "1659378151dc271a39-1",
         "4bec4cc6-af02-43b0-a3bc-d7319ffb0508",
-        "20ed4ef4-3e24-4ebe-8bc7-ecf7f2ab15b6"
+        "20ed4ef4-3e24-4ebe-8bc7-ecf7f2ab15b6",
+        "fe7a96f7-1721-401d-83fd-ba109a1c5bf8"
       ],
       "settings": {
         "title": "Grill nach Kategorie finden",

@@ -10,6 +10,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -26,98 +27,44 @@
         "padding_bottom": 36
       }
     },
-    "1655745089b6159d36": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "1655745089981dc29e-0": {
-          "type": "column",
-          "settings": {
-            "title": "Marinaden",
-            "text": "<p>Marinaden aus unserem Angebot.<\/p><p>Hier findest du die Marinade die du für dein Fleisch brauchst.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1655745089981dc29e-1": {
-          "type": "column",
-          "settings": {
-            "title": "Gewürze",
-            "text": "<p>Gewürze aus unserem Angebot.<\/p><p>Die Gewürze sorgen für eine besseres Grillerlebnis.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1655745089981dc29e-2": {
-          "type": "column",
-          "settings": {
-            "title": "Saucen",
-            "text": "<p>Saucen aus unserem Angebot.<\/p><p>Eine gute Sauce gehört zu jedem erfolgreichen Grillabend.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1655745089981dc29e-0",
-        "1655745089981dc29e-1",
-        "1655745089981dc29e-2"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16635852016f1e1a5b": {
+    "89746ff6-0b22-4a80-9577-6381f90f0018": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
-        "16635852017a65b53c-0": {
+        "template--16704667746528__89746ff6-0b22-4a80-9577-6381f90f0018-1675353439c315b7e2-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "allgrill"
+            "collection": "paella-sets"
           }
         },
-        "16635852017a65b53c-1": {
+        "template--16704667746528__89746ff6-0b22-4a80-9577-6381f90f0018-1675353439c315b7e2-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "char-broil"
+            "collection": "paella-zubehor"
           }
         },
-        "16635852017a65b53c-2": {
+        "template--16704667746528__89746ff6-0b22-4a80-9577-6381f90f0018-1675353439c315b7e2-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
-            "collection": "sizzlebrothers"
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "16635852017a65b53c-0",
-        "16635852017a65b53c-1",
-        "16635852017a65b53c-2"
+        "template--16704667746528__89746ff6-0b22-4a80-9577-6381f90f0018-1675353439c315b7e2-0",
+        "template--16704667746528__89746ff6-0b22-4a80-9577-6381f90f0018-1675353439c315b7e2-1",
+        "template--16704667746528__89746ff6-0b22-4a80-9577-6381f90f0018-1675353439c315b7e2-2"
       ],
       "settings": {
-        "title": "Übersicht",
-        "heading_size": "h2",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 4,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -125,7 +72,6 @@
   "order": [
     "banner",
     "product-grid",
-    "1655745089b6159d36",
-    "16635852016f1e1a5b"
+    "89746ff6-0b22-4a80-9577-6381f90f0018"
   ]
 }
