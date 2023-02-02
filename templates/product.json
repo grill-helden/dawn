@@ -60,6 +60,16 @@
           "settings": {
             "share_label": "Teilen"
           }
+        },
+        "a9289fa8-d500-45d3-8710-973e7fc420d5": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "Keine Bewertungen"
+          }
         }
       },
       "block_order": [
@@ -72,7 +82,8 @@
         "fbc51f2f-c5db-47a5-b567-e86a52e66399",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "a9289fa8-d500-45d3-8710-973e7fc420d5"
       ],
       "settings": {
         "enable_sticky_info": true,
