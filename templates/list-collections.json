@@ -28,12 +28,14 @@
         },
         "1a85c2f4-97a2-48f4-b3d5-c43dfe0de9c8": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "allwetterschutzhullen"
           }
         },
         "16548929345acc897a-1": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "gussplatten-topfe"
           }
@@ -46,6 +48,7 @@
         },
         "92048d44-5cfb-4882-85e5-caef651f5107": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "reinigungsbursten"
           }
@@ -64,18 +67,21 @@
         },
         "ad73a38e-4991-481c-b4c6-568424f54ce0": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "servierbretter"
           }
         },
         "c6e06d2e-e8a5-4dd6-9a18-31a6efda43be": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "messerblocke"
           }
         },
         "3b35eba9-1f0f-4803-8f7a-1e5976298a27": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "magnetische-messerleisten"
           }
