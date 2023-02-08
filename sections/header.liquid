@@ -436,6 +436,14 @@
                         {% render 'icon-caret' %}
                       </summary>
                       <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup" role="list" tabindex="-1">
+                        {% comment %}Show Parent Link {% endcomment %}
+                        <li class="announcement-bar">
+                          <a href="{{ link.url }}"
+                             class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if link.current %} list-menu__item--active{% endif %}"{% if link.current %} aria-current="page"{% endif %}>
+                            <strong class="link--text">{{ link.title | escape }}</strong>
+                          </a>
+                        </li>
+                        {% comment %}Show Parent Link end {% endcomment %}
                         {%- for childlink in link.links -%}
                           <li>
                             {%- if childlink.links == blank -%}
