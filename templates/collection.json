@@ -28,6 +28,7 @@
     },
     "f8fe062d-2fe1-4619-a4e7-5dc27d0dda01": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Unterkategorien",
         "heading_size": "h2",
