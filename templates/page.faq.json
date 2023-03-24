@@ -109,7 +109,7 @@
           "settings": {
             "heading": "Versandkostenfrei ab 50€ Bestellwert",
             "icon": "none",
-            "row_content": "<p>Alle Bestellungen ab einem Warenwert von 50€ werden<strong>kostenfrei<\/strong>innerhalb Deutschlands versendet. Alle Grills werden von uns Freihaus an Sie geliefert.<\/p>",
+            "row_content": "<p>Alle Bestellungen ab einem Warenwert von 50€ werden <strong>kostenfrei<\/strong> innerhalb Deutschlands versendet. Alle Grills werden von uns \"Freihaus\" an Sie geliefert.<\/p>",
             "page": ""
           }
         },
@@ -136,7 +136,7 @@
           "settings": {
             "heading": "Exklusive Angebote",
             "icon": "none",
-            "row_content": "<p>Wir bieten Ihnen<strong>exklusive saisonale Angebote<\/strong>an. Um keine Angebote zu verpassen, melden Sie sich einfach bei unseren Newsletter an oder folgen Sie unseren Social-Media Kanälen.<\/p>",
+            "row_content": "<p>Wir bieten Ihnen <strong>exklusive saisonale Angebote <\/strong>an. Um keine Angebote zu verpassen, melden Sie sich einfach bei unseren Newsletter an oder folgen Sie unseren Social-Media Kanälen.<\/p>",
             "page": ""
           }
         }
