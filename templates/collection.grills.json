@@ -19,6 +19,7 @@
         },
         "d6e15f81-7cb6-4074-a99f-9936d408b5d6": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "kohlegrills"
           }
