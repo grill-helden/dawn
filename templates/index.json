@@ -68,24 +68,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-ivan-samkov-7121828.jpg",
-            "heading": "10% Rabatt auf ALLE Produkte bis Ostern!",
-            "heading_size": "h1",
-            "subheading": "Automatisch 10% Rabatt beim Checkout bis zum 10.04.2023!",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 40,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "158e8a46-f270-4bc4-a55a-0c73030f934f": {
           "type": "slide",
           "settings": {
@@ -107,7 +89,6 @@
       },
       "block_order": [
         "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-0",
-        "template--16704666992864__14855818-0b88-49c7-9afd-64a7a5e97f88-16718165144614af65-1",
         "158e8a46-f270-4bc4-a55a-0c73030f934f"
       ],
       "settings": {
