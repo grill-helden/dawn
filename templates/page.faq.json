@@ -91,7 +91,7 @@
           "settings": {
             "heading": "Kommen ausverkaufte Artikel wieder auf Lager?",
             "icon": "none",
-            "row_content": "<p>Ist ein Artikel vom Sortiment im Shop momentan ausverkauft wird er demnächst schnellstmöglich wieder im Shop Verfügbar sein.  Ware aus dem lager bestand werden in 1-2 Werktagen nach der Bestellung versendet.<\/p>",
+            "row_content": "<p>Ist ein Artikel vom Sortiment im Shop momentan ausverkauft wird er demnächst schnellstmöglich wieder im Shop Verfügbar sein.  Ware aus dem Lagerbestand werden in 1-2 Werktagen nach der Bestellung versendet.<\/p>",
             "page": ""
           }
         },
@@ -125,9 +125,9 @@
         "385d3936-44d1-44d3-a76b-6424021654a7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Voller Garantie Anspruch",
+            "heading": "Versand nur aus Deutschland",
             "icon": "none",
-            "row_content": "<p>Wir bieten Ihnen<strong>volle Herstellergarantie<\/strong>auf alle Produkte an. Wenden Sie sich einfach über unser Kontaktformular an uns. Die Garantieangaben hängen vom jeweiligen Hersteller ab.<\/p>",
+            "row_content": "<p>Wir verschicken <strong>ausschließlich Lagerware<\/strong>. Falls ein Artikel mal nicht auf Lager ist, sorgen wir dafür, dass er schnellstmöglich wieder für Sie verfügbar ist. Wir betreiben <strong>kein<\/strong> Dropshipping.<\/p>",
             "page": ""
           }
         },

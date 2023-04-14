@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "Grills nach Art",
         "sort": "alphabetical",
@@ -12,59 +13,112 @@
     },
     "16548929349fc765f4": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "16548929345acc897a-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gasgrills"
+            "collection": "grills"
+          }
+        },
+        "f48091cc-9d73-4858-a20b-2a98b4233233": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outdoorkuchen-komplettsets"
+          }
+        },
+        "1a85c2f4-97a2-48f4-b3d5-c43dfe0de9c8": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "allwetterschutzhullen"
           }
         },
         "16548929345acc897a-1": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
-            "collection": "kohlegrills"
+            "collection": "gussplatten-topfe"
+          }
+        },
+        "beb9131a-1bfb-427b-8b93-9dd75c570364": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "messer-nach-art"
+          }
+        },
+        "92048d44-5cfb-4882-85e5-caef651f5107": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "reinigungsbursten"
           }
         },
         "16548929345acc897a-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "smoker"
+            "collection": "sonstiges-zubehor"
           }
         },
-        "1a85c2f4-97a2-48f4-b3d5-c43dfe0de9c8": {
+        "10b38a97-f064-4c32-9258-e73d38d6142c": {
           "type": "featured_collection",
           "settings": {
-            "collection": "elektrogrills"
+            "collection": "thermometer"
+          }
+        },
+        "ad73a38e-4991-481c-b4c6-568424f54ce0": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "servierbretter"
+          }
+        },
+        "c6e06d2e-e8a5-4dd6-9a18-31a6efda43be": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "messerblocke"
+          }
+        },
+        "3b35eba9-1f0f-4803-8f7a-1e5976298a27": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "magnetische-messerleisten"
+          }
+        },
+        "df2279ee-716b-4a52-9f66-9eb5e0ac3988": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "saucen"
           }
         },
         "6a9f5782-fdb5-4f2a-9d5c-5f26fd993990": {
           "type": "featured_collection",
           "settings": {
-            "collection": "outdoorkuchen"
-          }
-        },
-        "df2279ee-716b-4a52-9f66-9eb5e0ac3988": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
+            "collection": "gewurze"
           }
         }
       },
       "block_order": [
         "16548929345acc897a-0",
-        "16548929345acc897a-1",
-        "16548929345acc897a-2",
+        "f48091cc-9d73-4858-a20b-2a98b4233233",
         "1a85c2f4-97a2-48f4-b3d5-c43dfe0de9c8",
-        "6a9f5782-fdb5-4f2a-9d5c-5f26fd993990",
-        "df2279ee-716b-4a52-9f66-9eb5e0ac3988"
+        "16548929345acc897a-1",
+        "beb9131a-1bfb-427b-8b93-9dd75c570364",
+        "92048d44-5cfb-4882-85e5-caef651f5107",
+        "16548929345acc897a-2",
+        "10b38a97-f064-4c32-9258-e73d38d6142c",
+        "ad73a38e-4991-481c-b4c6-568424f54ce0",
+        "c6e06d2e-e8a5-4dd6-9a18-31a6efda43be",
+        "3b35eba9-1f0f-4803-8f7a-1e5976298a27",
+        "df2279ee-716b-4a52-9f66-9eb5e0ac3988",
+        "6a9f5782-fdb5-4f2a-9d5c-5f26fd993990"
       ],
       "settings": {
-        "title": "Grills nach Art",
+        "title": "Alle Produkte",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",

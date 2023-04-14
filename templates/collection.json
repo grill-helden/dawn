@@ -26,19 +26,26 @@
         "padding_bottom": 36
       }
     },
-    "49ec9402-06a8-42fa-a464-a2e375e6da8c": {
-      "type": "custom-liquid",
+    "4ee96202-b1e4-423d-a25c-4ca4b4365653": {
+      "type": "dynamic-collection-list",
       "settings": {
-        "custom_liquid": "<h2>  test<\/h2>",
+        "collections": "{{ collection.metafields.custom.sub_kategories.value }}",
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "49ec9402-06a8-42fa-a464-a2e375e6da8c"
+    "4ee96202-b1e4-423d-a25c-4ca4b4365653"
   ]
 }

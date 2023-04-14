@@ -50,18 +50,7 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Teilen"
-          }
-        },
-        "a9289fa8-d500-45d3-8710-973e7fc420d5": {
+        "f3d5aa67-9d8f-4c11-a2f1-840e4364e7a1": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
             "stars_fill_color": "#000000",
@@ -71,9 +60,20 @@
             "stars_text_empty": "Keine Bewertungen"
           }
         },
-        "7a77353d-5962-4f36-9643-4654651e6d2b": {
+        "40d4ecaf-3f76-4ec8-ab2c-e544045fd6b4": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
           }
         }
       },
@@ -86,10 +86,10 @@
         "quantity_selector",
         "fbc51f2f-c5db-47a5-b567-e86a52e66399",
         "buy_buttons",
+        "f3d5aa67-9d8f-4c11-a2f1-840e4364e7a1",
+        "40d4ecaf-3f76-4ec8-ab2c-e544045fd6b4",
         "description",
-        "share",
-        "a9289fa8-d500-45d3-8710-973e7fc420d5",
-        "7a77353d-5962-4f36-9643-4654651e6d2b"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -114,15 +114,22 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": true,
-        "show_rating": true,
+        "show_rating": false,
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 0
+      }
+    },
+    "1675359956bba94406": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "1675359956bba94406"
   ]
 }
