@@ -28,6 +28,7 @@
     },
     "4ee96202-b1e4-423d-a25c-4ca4b4365653": {
       "type": "dynamic-collection-list",
+      "disabled": true,
       "settings": {
         "collections": "{{ collection.metafields.custom.sub_kategories.value }}",
         "title": "Collections",
