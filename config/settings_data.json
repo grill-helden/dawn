@@ -139,7 +139,7 @@
           "logo": "shopify:\/\/shop_images\/logorund.webp",
           "logo_width": 140,
           "logo_position": "middle-left",
-          "menu": "main-menu",
+          "menu": "categorie-menu",
           "back_button_label": "zurück",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
